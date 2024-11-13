@@ -6,7 +6,9 @@
   "private": true,
   "scripts": {
     "test": "vitest",
-    "preversion": "npx nx release version ${npm_new_version}"
+    "preversion": "npx nx release version ${npm_new_version}",
+    "lint": "nx run-many --target=lint --exclude=root --fix",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +29,7 @@
     "@vitest/ui": "^1.3.1",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.0.0",
+    "husky": "^9.1.6",
     "nx": "20.1.0",
     "prettier": "^2.6.2",
     "rollup": "^4.14.0",
@@ -39,7 +42,6 @@
     "vitest": "^1.3.1"
   },
   "nx": {},
-  "dependencies": {},
   "workspaces": [
     "packages/*"
   ]
