@@ -1,6 +1,6 @@
 {
   "name": "fxmlp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {},
   "main": "./index.cjs",
   "module": "./index.js",
