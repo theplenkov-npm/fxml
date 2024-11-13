@@ -1,6 +1,6 @@
 {
   "name": "fxml",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
     "@nx/rollup": "20.1.0",
     "vitest": "^1.3.1"
