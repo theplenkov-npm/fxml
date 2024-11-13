@@ -1,4 +1,4 @@
-# Why fxml?
+# Why fxmlp?
 
 This library - is a helper library for constructing XML object compatible with [XMLBuilder](https://github.com/NaturalIntelligence/fast-xml-parser/blob/HEAD/docs/v4/3.XMLBuilder.md) of fast-xml-parser library.
 
@@ -50,7 +50,7 @@ So if we want to build such JSON - we have to use these symbols such as @ and ri
 This library introduces ability to construct same object just by using clean property names:
 
 ```ts
-import { $attr, $xmlns, $namespaces } from 'fxml'
+import { $attr, $xmlns, $namespaces } from 'fxmlp'
 
 const { doma, adtcore, atom } = $namespaces([
     ['doma', { recursive: true }],

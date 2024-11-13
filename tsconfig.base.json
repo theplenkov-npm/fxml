@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "fxml": ["packages/fxml/src/index.ts"]
+      "fxmlp": ["packages/fxml/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

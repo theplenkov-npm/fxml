@@ -1,5 +1,5 @@
 {
-  "name": "fxml",
+  "name": "fxmlp",
   "version": "1.0.6",
   "dependencies": {},
   "main": "./index.cjs",
@@ -7,6 +7,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theplenkov-npm/fxml.git",
-    "directory": "packages/fxml"
+    "directory": "packages/fxmlp"
   }
 }
