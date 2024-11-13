@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Construct XML with Fast XML parser",
   "main": "index.js",
   "private": true,
